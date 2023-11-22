@@ -311,11 +311,15 @@ animation: jiggle 0.5s ease-in-out;
 
     .top-row {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        grid-gap: 250px;
     }
 
     .top-row figure {
         width: 33%;
+    }
+    .bottom-row figure {
+        width: 50%;
     }
 
     .bottom-row {
